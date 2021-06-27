@@ -123,35 +123,40 @@ color: #1554ff;
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
 .title{
+    position: relative;
     font-family: 'Open sans', sans-serif;
 
     color: #4b4b4b;
 
-    width: 100%;
+    max-width: 100%;
     height: fit-content;
 
     display: flex;
     align-items: center;
 
-    margin-left: 40px;
+    margin-left: 60px;
     /* justify-content: center; */
 }
 
 .description{
+    position: relative;
     width: 100%;
+    max-width: 100%;
+
     height: fit-content;
 
-    padding: 20px 30px 40px 30px;
+    padding: 20px 60px 40px 60px;
 
     display: flex;
     align-items: center;
 }
 
 .description p{
+    position: relative;
     font-family: 'Open Sans';
     font-weight: 600;
 
-    max-width: 700px;
+    max-width: 1000px;
 
     color: #5c5c5c;
 
