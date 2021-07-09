@@ -484,7 +484,11 @@ color: #1554ff;
     cursor: pointer;
 }
 
-.content-input label:active #label-2{
+#i-b-7{
+    background-color: #eeedf5;
+}
+
+.content-input #label-3{
     width: 50px;
     height: 50px;
     
@@ -494,9 +498,15 @@ color: #1554ff;
     /* position: absolute; */
 
     
-    color: #1c1c1c;
+    color: #292929;
     
-    background-color: rgba(238, 238, 238, 0.789);
-    box-shadow: rgba(240, 240, 240, 0.083) -2px -2px 7px inset, rgb(255, 255, 255) 2px 2px 4px ,  0 -1px 4px rgb(146, 146, 146), 0 0 15px rgba(238, 238, 238, 0.789) inset,  0 0 1px 10px rgb(255, 255, 255) inset;
-}
+    background: radial-gradient(at left 20% , rgb(245, 245, 248) 40%, rgba(158, 158, 158, 0.323) 90%);
 
+    box-shadow: 
+    rgba(175, 175, 175, 0.237) 5px 5px 7px,
+    rgba(232, 232, 232, 0.163) -3px -3px 7px inset,
+    rgba(255, 255, 255, 0.583) -3px -3px 5px 2px,
+    0 0 3px 7px rgba(242, 243, 245, 0.288);
+
+    cursor: pointer;
+}
