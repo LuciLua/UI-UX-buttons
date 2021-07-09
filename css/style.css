@@ -300,20 +300,30 @@ color: #1554ff;
 
 
 .inputs, .tests{
-    height: calc(100vh - 180px);
+    min-height: calc(100vh - 180px);
     width: 100%;
 
     display: flex;
     justify-content: center;
     align-items: center;
+
+    position: relative;
 }
 
 .content-input{
     width: 90%;
-    height: 100%;
+    max-width: 90%;
+    height: fit-content;
 
     position: relative;
-    padding: 30px;
+    padding: 20px;
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+
 }
 
 .content-input .input-box{
@@ -325,7 +335,10 @@ color: #1554ff;
     justify-content: center;
 
     margin: 10px;
-    border: 1px solid #1554ff;
+    border: 1px solid #1f1f1f31;
+    border-radius: 10px;
+
+    position: relative;
 }
 
 
@@ -402,3 +415,43 @@ color: #1554ff;
 #i-b-4{
     background-color: #eeedf5;
 }
+
+/* radio inputs */
+#i-b-5{
+    background-color: #eeedf5;
+}
+
+.content-input label{
+    width: 50px;
+    height: 50px;
+    
+    border-radius: 60%;
+    padding: 20px 15px;
+
+    /* position: absolute; */
+
+    
+    color: #292929;
+    
+    background-color: #eeedf5;
+    box-shadow: rgba(170, 170, 170, 0.213) 3px 3px 6px, rgb(255, 255, 255) -2px -2px 2px , rgb(255, 255, 255) 0 -1px 4px, 0 0 15px rgba(255, 255, 255, 0.322) inset;
+
+    cursor: pointer;
+}
+
+.content-input label:active{
+    width: 50px;
+    height: 50px;
+    
+    border-radius: 60%;
+    padding: 20px 15px;
+
+    /* position: absolute; */
+
+    
+    color: #1c1c1c;
+    
+    background-color: rgba(238, 238, 238, 0.789);
+    box-shadow: rgba(240, 240, 240, 0.083) -2px -2px 7px inset, rgb(255, 255, 255) 2px 2px 4px ,  0 -1px 4px rgb(146, 146, 146), 0 0 15px rgba(238, 238, 238, 0.789) inset,  0 0 1px 10px rgb(255, 255, 255) inset;
+}
+
