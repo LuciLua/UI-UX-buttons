@@ -313,6 +313,14 @@ color: #1554ff;
     font-family: monospace;
 }
 
+.btn-6:active{
+        box-shadow: rgba(0, 0, 0, 0.092) 2px 2px 9px 1px inset,
+    rgba(255, 255, 255, 0.514) 2px 2px 9px 1px inset,
+    rgb(255, 255, 255) -3px -3px 10px 1px inset;
+    background-color: #ededed;    
+}
+
+
 .sep-7{
     background-color: rgb(49, 49, 49);
     padding: 20px;
