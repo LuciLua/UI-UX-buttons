@@ -368,10 +368,40 @@ color: #1554ff;
     rgba(214, 214, 214, 0.844) 0px 0px 15px 1px,
     rgba(255, 255, 255, 0.933) 0px 0px 5px 12px,
     rgba(0, 0, 0, 0.196) 5px 5px 10px 12px,
-    rgb(220, 220, 220) -3px -1px 10px 12px;
+    rgb(220, 220, 220) -3px -1px 10px 12px,
+    #1554ff 21px -10px 1px 1px inset ;
     
-    color: rgb(174, 174, 174);
+    color: rgb(54, 84, 255);
     font-family: monospace;
+}
+
+.btn-9::after{
+    content: '';
+    position: absolute;
+    height: 60px;
+    width: 10px;
+    background-color:transparent;
+    bottom: -60px;
+    left: 47%;
+
+    box-shadow: 
+    rgba(214, 214, 214, 0.844) 0px 22px 15px 1px,
+    rgba(255, 255, 255, 0.933) 0px 22px 5px 12px,
+    rgb(220, 220, 220) -13px 22px 10px 8px,
+    rgb(220, 220, 220) 13px 22px 10px 8px;
+    border-radius: 0 0 30px 30px;
+}
+
+.btn-9::before{
+    content: '';
+    position: absolute;
+    bottom: -60px;
+    background-color: #ededed;
+    width: 12px;
+    height: 50px;
+    left: 46%;
+
+    box-shadow: inset  0 -20px 2px #1554ff;
 }
 
 .inputs, .tests{
