@@ -600,6 +600,10 @@ color: #1554ff;
     rgba(181, 181, 181, 0.837) 5px 5px 10px ,
     rgb(181, 181, 181) 5px 5px 7px inset;
     cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .content-input #label-3::after{
     content: '';
@@ -620,19 +624,9 @@ color: #1554ff;
 }
 
 .content-input #label-3::before{
-    content: '';
+    content: attr(conteudo);
     position: absolute;
-    width: 6px;
-    height: 10px;
-    
-
-    top: 40px;
-
-    border-radius: 60%;
 
     color: #292929;
-    
-    background: rgba(255, 255, 255, 0.659);
-    box-shadow: #ffffffc4 1px 1px 3px ;
-
+    filter: blur(1px);
 }
