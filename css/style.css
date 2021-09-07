@@ -348,6 +348,32 @@ color: #1554ff;
     text-shadow: rgb(0, 0, 0) 2px 2px 3px;
     font-family: monospace;
 }
+
+.btn-8{
+    background-color: #ebebeb;
+    border: none;
+    border-radius: 40px;
+    box-shadow: rgba(0, 0, 0, 0.196) 5px 5px 8px 2px,
+    #fff -5px -5px 8px 2px;
+    
+    color: rgb(174, 174, 174);
+    font-family: monospace;
+}
+.btn-9{
+    background-color: #ffffff;
+    border: none;
+    border-radius: 40px;
+    box-shadow: 
+    rgba(214, 214, 214, 0.844) 0px 0px 15px 1px inset,
+    rgba(214, 214, 214, 0.844) 0px 0px 15px 1px,
+    rgba(255, 255, 255, 0.933) 0px 0px 5px 12px,
+    rgba(0, 0, 0, 0.196) 5px 5px 10px 12px,
+    rgb(220, 220, 220) -3px -1px 10px 12px;
+    
+    color: rgb(174, 174, 174);
+    font-family: monospace;
+}
+
 .inputs, .tests{
     min-height: calc(100vh - 180px);
     width: 100%;
