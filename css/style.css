@@ -403,6 +403,20 @@ color: #1554ff;
 
     box-shadow: inset  0 -20px 2px #1554ff;
 }
+.btn-10{
+    background-color: #ffffff;
+    border: none;
+
+    border-radius: 7px;
+    box-shadow: 
+    rgb(255, 255, 255) 5px 5px 5px 1px inset,
+    rgba(214, 214, 214, 0.844) -1px -1px 5px 1px inset,
+    rgba(214, 214, 214, 0.844) 6px 6px 8px 1px,
+    rgba(255, 255, 255, 0.844) -6px -6px 8px 1px;
+    
+    color: rgb(140, 140, 140);
+    font-family: monospace;
+}
 
 .inputs, .tests{
     min-height: calc(100vh - 180px);
